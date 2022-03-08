@@ -2,6 +2,7 @@
 # First param ─┌
 
 add_newline = false
+command_timeout = 1000
 
 [username]
 format = " [$user]($style) trapped in "

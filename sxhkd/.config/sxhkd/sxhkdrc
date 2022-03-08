@@ -1,5 +1,9 @@
 #
 # wm independent hotkeys
+#vivaldi
+
+super + v + b
+			vivaldi-stable
 #emoji
 super + period
 	rofimoji
