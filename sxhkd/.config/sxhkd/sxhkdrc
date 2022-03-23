@@ -1,5 +1,9 @@
 #
 # wm independent hotkeys
+#vs code
+super + comma
+			code
+
 #vivaldi
 
 super + v + b

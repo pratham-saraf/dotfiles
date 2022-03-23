@@ -7,6 +7,7 @@
 #export PATH="$PATH:/home/kshgrk/Documents/flutter/bin"
 #export PATH="$PATH:/home/kshgrk/Documents/flutter/bin/cache/dart-sdk"
 #export PATH="$HOME/.emacs.d/bin:$PATH"
+# added by Anaconda3 installer
 export PATH="$HOME/.local/bin:$PATH"
 #export CHROME_EXECUTABLE='/usr/bin/google-chrome-stable'
 #export PATH="$HOME/.emacs.d/bin:$PATH"
