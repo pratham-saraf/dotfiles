@@ -183,8 +183,12 @@ bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
 
 ## Useful aliases
+#wifi
+alias connect="nmcli d wifi connect"
 #ping
 alias ping="ping google.com -c 5 | tail -3"
+#sauce
+alias sauce="/home/neo/.bruhhhhh/sauce-cli/sauce/sauce-cli"
 #copy
 alias copy="xclip -selection clipboard"
 alias pdf="devour sioyek"
