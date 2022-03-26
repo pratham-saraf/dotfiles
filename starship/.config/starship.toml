@@ -5,18 +5,18 @@ add_newline = false
 command_timeout = 1000
 
 [username]
-format = " [$user]($style) trapped in "
+format = " [$user]($style) -> "
 style_user = "bold italics #fceaea"
 style_root = "bold cyan"
 show_always = true
 
 # Second param
 [hostname]
-format = "[$hostname]($style) fighting "
+format = "[$hostname]($style) "
 style = "bold #494949"
 trim_at = "-"
 ssh_only = false
-disabled = false
+disabled = true
 
 # Third param
 [directory]
@@ -73,7 +73,7 @@ disabled = true
 
 # Prompt: param 2 └─
 [character]
-success_symbol = " [Truth Serum Used ﭧ:](cyan)"
+success_symbol = " [ξ:](cyan)"
 error_symbol = "[:](red)"
 
 [sudo]
@@ -83,14 +83,13 @@ disabled = false
 
 # SYMBOLS
 [status]
-symbol = "[Fear Serum Used ﭧ](#ec5800)"
-not_found_symbol = "[Memory Serum Used ﭧ](red)"
+symbol = "[δ](#ec5800)"
+not_found_symbol = "[?](red)"
 format = '[$symbol$status_common_meaning$status_signal_name$status_maybe_int]($style)'
 map_symbol = true
 disabled = false
-not_executable_symbol = "Paralytic Serum ﭧ](yellow)"
-sigint_symbol = "[Death Serum Used ﭧ](purple)"
-signal_symbol = "[Aptitude Serum Used ﭧ](white)"
+not_executable_symbol = "[☥](yellow)"
+sigint_symbol = "[Θ](purple)"
 [aws]
 symbol = " "
 
